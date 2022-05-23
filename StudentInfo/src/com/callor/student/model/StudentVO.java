@@ -1,11 +1,11 @@
 package com.callor.student.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
+import lombok.Builder;
 
 @Getter
 @Setter
@@ -15,10 +15,10 @@ import lombok.ToString;
 @Builder
 public class StudentVO {
 
-	private String stnum;
-	private String stname;
-	private String stdept;
-	private String stage;
-	private String sttel;
+	private String stNum;
+	private String stName;
+	private String stDept;
+	private String stGrade;
+	private String stTel;
 	
 }
